@@ -3,12 +3,8 @@ SonarQube Custom Terraform Plugin
 
 An terraform SonarQube plugin compatible with SonarQube 10.x.
 
-Back-end
---------
 
-Todo...
-
-### Building
+### Building/ Deploying
 
 To build the plugin JAR file, call:
 
