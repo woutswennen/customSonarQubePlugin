@@ -1,12 +1,17 @@
 SonarQube Custom Terraform Plugin
 ==========
 
-An terraform SonarQube plugin compatible with SonarQube 10.x.
+An SonarQube plugin compatible with SonarQube 10.x. Adds to linting rules for Terraform:
+* Azure policy can not include mock policy
+* Policy must include base tag
+
+This is a work in progress in the sense that it needs to be cleaned up.
+You can add the Jar to your <SONARQUBE_HOME>/extensions/plugins
 
 
 ### Building/ Deploying
 
-To build the plugin JAR file, call:
+To build the plugin JAR file, run:
 
 ```
 mvn clean package
